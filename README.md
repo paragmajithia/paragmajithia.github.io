@@ -1,1 +1,1 @@
-## Parag Majithia
+### Portfolio site is available on [Parag Majithia](https://paragmajithia.github.io/)
