@@ -232,9 +232,14 @@ section {
     transform: scale(1.5);
 }
 
-.leisure-container-card img {
+.leisure-container-card .img-small {
     border-radius: 8px;
     width: 30%;
+}
+
+.leisure-container-card .img-large {
+    border-radius: 8px;
+    width: 100%;
 }
 
 /*
