@@ -83,7 +83,7 @@ span {
 .contact img {
     width: 20px;
     height: 20px;
-    
+
 }
 
 .contact:hover {
@@ -144,7 +144,7 @@ section {
 .experience img {
     width: 20px;
     height: 20px;
-    
+
 }
 
 .experience-links {
@@ -165,21 +165,77 @@ section {
 
 .experience a:link {
     color: black;
-  }
-  
-  /* mouse over link */
+}
+
+/* mouse over link */
 .experience a:hover {
     color: darkred;
     text-decoration: underline;
     text-shadow: 0 0 25px darkorange,
         0 0 50px darkorange;
-  }
-  
-  /* selected link */
+}
+
+/* selected link */
 .experience a:active {
     color: blue;
-  }
+}
 
+
+/*
+  *  ==================== Leisure Section ===============
+  */
+  .leisure {
+    width: 100%;
+    min-height: 30vh;
+    background: lightgrey;
+    padding: 30px 12% 10px;
+}
+
+.leisure-container {
+    max-width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+.leisure-container-card {
+    flex: 1;
+    flex-basis: 40%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    max-width: 70%;
+    padding: 10px 1% 10px;
+}
+
+.leisure-container-card h3 {
+    color: #026aa6;
+    font-size: 27px;
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 0 10px 5px;
+}
+
+.leisure-container-card p {
+    color: #333;
+    font-size: 17px;
+    line-height: 1.6;
+    padding: 0 10px 10px;
+}
+
+.leisure-container-card:hover {
+    transform: scale(1.5);
+}
+
+.leisure-container-card img {
+    border-radius: 8px;
+    width: 30%;
+}
 
 /*
 * ==================== Philanthropy Section ===============
@@ -188,7 +244,7 @@ section {
     width: 100%;
     min-height: 30vh;
     background: rgb(241, 241, 241);
-    padding: 30px 12% 0;
+    padding: 30px 12% 10px;
 }
 
 .card-container {
@@ -208,6 +264,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
+    max-width: 70%;
 }
 
 .card:hover {
