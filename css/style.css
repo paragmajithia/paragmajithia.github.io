@@ -62,7 +62,7 @@ span {
 }
 
 .contact {
-    padding: 10px 20px;
+    padding: 5px 5px;
     background-color: white;
     color: black;
     border: 2px solid transparent;
@@ -72,6 +72,12 @@ span {
     letter-spacing: 1px;
     transition: 0.3s ease;
     max-width: 40%;
+}
+
+.contact img {
+    width: 20px;
+    height: 20px;
+    
 }
 
 .contact:hover {
@@ -126,6 +132,30 @@ section {
     background: lightsalmon;
     padding: 30px 12% 0;
 }
+
+.download-resume {
+    margin: 25px 0 30px;
+    font-size: 25;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.experience a:link {
+    color: antiquewhite;
+  }
+  
+  /* mouse over link */
+.experience a:hover {
+    color: darkred;
+    text-shadow: 0 0 25px darkorange,
+        0 0 50px darkorange;
+  }
+  
+  /* selected link */
+.experience a:active {
+    color: blue;
+  }
+
 
 /**
 * Philanthropy
