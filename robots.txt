@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://paragmajithia.github.io/sitemap.xml
